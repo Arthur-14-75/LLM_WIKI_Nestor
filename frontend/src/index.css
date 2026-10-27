@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FAF3E0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
+
+/* Force les longues chaînes / titres dans le markdown à casser */
+.markdown-body {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.Wiki-nestor {
+  font-family: 'Work Sans', sans-serif;
+  color: #FAF3E0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%; 
+}
+.sidebar {
+  width: 305px;
+  min-height: 100vh;
+  height: auto;
+  background-color: #99300A;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.fiche_bouton-hover {
+  background-color: rgba(243, 237, 237, 0.891);
+}
